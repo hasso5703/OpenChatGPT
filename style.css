@@ -4,5 +4,82 @@
     box-sizing: border-box;
 }
 
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
 
+.menu {
+    background-color: rgb(60, 60, 60);
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
 
+.menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu ul button {
+    background-color: rgb(60, 60, 60);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    width: 150px;
+    border-radius: 50px;
+}
+
+.menu ul button:hover {
+    background-color: rgb(35, 35, 35);
+}
+
+.content {
+    background-color: rgb(104, 104, 104);
+    width: 100%;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+}
+
+.input form input {
+    padding: 20px;
+    width: 500px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(240, 248, 255, 0.182);
+    color: white;
+}
+
+.input form button {
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.messages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    color: white
+}
+
+.conversation {
+    height: 100%;
+}
